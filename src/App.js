@@ -1,22 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+
+const botId = "1079537551372722356"
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="Bot-tag">
+          <img className="Bot-image" src="https://cdn.discordapp.com/avatars/1079537551372722356/70b47bdaa38144f680b62422502c5be8.png?size=1024" alt="Profile"></img>
+        </div>
       </header>
     </div>
   );
